@@ -112,7 +112,8 @@ fieldset {
 	display:none;	
 }
 
-a:hover .media-overlay {
+a:hover .media-overlay,
+a:focus .media-overlay {
 	top: 0;
 }
 
@@ -156,6 +157,10 @@ a:hover .media-overlay {
 
 #lightBox ul li {
 	margin-bottom: .75rem;
+}
+
+#gallery {
+	overflow: hidden;
 }
 
 @media screen and (min-width: 640px) {
