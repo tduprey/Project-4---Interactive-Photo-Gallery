@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Project 4 - Interactive Photo Gallery</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="body">
+	<header>
+    	<h1><span>Lyte</span> Box</h1>
+        <h2>The greatest photo gallery web app humankind has ever seen. Ever.</h2>
+    </header>
+    
+    <section id="themer">
+    	<h2>Colors</h2>
+        <p id="themer-tag">Choose your color theme:</p>
+    	<ul id="picker">
+        	<li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </section>
+        
+	<main>
+        
+        <section id="srch">
+        	<!-- Search form start --> 
+        	<form>
+            	<fieldset class="searchField"><legend class="keywords">keyword(s):</legend>
+                	<input  class="searchBox" placeholder="Search" type="search" />
+                </fieldset>
+                <fieldset class="filterField"><legend>Filter by:</legend>
+                	<input id="all" type="checkbox" name="media-option-all" />
+                    	<label for="all">All</label>
+                    <input id="photos" type="checkbox" name="media-option-photo" />
+                    	<label for="photos">Photos</label>
+                    <input id="videos" type="checkbox" name="media-option-video" />
+                    	<label for="videos">Videos</label>
+                    <input id="animation" type="checkbox" name="media-option-animation" />
+                    	<label for="animation">Animation</label>
+                </fieldset>
+            </form>
+            
+        </section> <!-- End of search section --> 
+        
+        <section id="gallery">
+        	<!-- Add photos here -->
+        	<ul class="media-container">
+
+            </ul>
+        </section>
+        
+    </main>
+    
+    <footer>
+    	<p>This page is a custom design by Tyler Duprey. Check out my website <a href="">here</a>, or leave a nice comment on my GitHub page <a href="">here</a>. This is one of <a href="">several portfolio pieces</a> I created with the help of TeamTreehouse.com. Level up your skills by visiting the good folks at  <a href="">Treehouse</a>.</p>
+        <ul class="social">
+        	<li><a href="httP://github.com"></a></li>
+            <li><a href="http://linkedin.com/in/tylerduprey"></a></li>
+            <li><a href="http://codepen.io/tylerduprey"></a></li>
+        </ul>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<script src="scripts.js"></script>   
+</body>
+</html>

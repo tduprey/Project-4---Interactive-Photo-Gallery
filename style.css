@@ -1,0 +1,283 @@
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+html,body {
+	height: 100%; width: 100%; margin: 0;padding:0;
+}
+
+body {
+	font-family: "Varela Round", sans-serif;
+	background: white;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;	
+}
+
+form {
+	text-align: center;	
+	color: #c3c3c3;
+}
+
+.keywords {
+	display: none;
+}
+
+ .searchBox {
+	border: 1px solid #c3c3c3;
+}
+
+input {
+	padding: 10px;	
+}
+
+input[placeholder] {
+	font-size: 16pt;	
+}
+
+fieldset {
+	border: 0;
+}
+
+.filterField {
+	font-size: .75rem;
+}
+
+.filterField label {
+	margin-right: 5px;
+}
+	
+.media-container {
+	margin: 0 auto;
+	background: white;
+	border-radius: 10px;
+	
+	padding: 1rem 0;
+	list-style: none;
+	max-width: 980px;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.media-container a {
+	padding: 0 2.5%;
+	margin: 1rem 0 0;	
+	width: 40%;
+	height: 130px;
+}
+
+.media-container a li {
+	position: relative;
+	height: 100%;
+	border-radius: 10px;
+	background: #c3c3c3;
+	color: #fff;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+
+}
+
+.media-overlay {
+	position: absolute;
+	top: -250px;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(34,83,120,.75);
+	transition: top .25s ease-out;
+}
+
+.media-overlay h3 {
+	margin-top: .75rem;
+	line-height: .5rem;
+	font-size: .85rem;
+	transition: opacity 1s ease-out;	
+}
+
+.media-overlay p {
+	padding-top: .25rem;
+	padding-bottom: 1.5rem;
+	margin: 0;	
+	line-height: 0;
+}
+
+.caption, .byLine {
+	display:none;	
+}
+
+a:hover .media-overlay {
+	top: 0;
+}
+
+.media-overlay img {
+	height: 30%;
+	width: 20%;
+}
+
+#lightBox {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(34,83,120,.85);	
+	color: #fff;
+	z-index: 10;
+	
+	/* styling for content */
+	text-align: center;
+	padding-top: 10%;
+}
+
+.featured-image,
+#lightBox ul {
+	text-align: left;
+	max-width: 500px;	
+	border-radius: 10px;
+}
+
+#lightBox h2 {
+	margin-bottom: 0;
+	line-height: 2rem;	
+}
+
+#lightBox ul {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;	
+}
+
+#lightBox ul li {
+	margin-bottom: .75rem;
+}
+
+@media screen and (min-width: 640px) {
+	
+	.keywords {
+		display: block;
+		text-align: left;	
+		color: #c3c3c3;
+	}
+	
+	.searchField {
+		margin: 0 auto 1rem;
+		max-width: 460px;
+	}
+	
+	.filterField {
+		font-size: 1rem;
+	}
+
+	.filterField label {
+		margin-right: 20px;
+	}
+
+	.filterField legend {
+		margin-bottom: .5rem;	
+	}
+	
+	.searchBox {
+		margin-top: 1rem;
+		min-width: 460px;	
+	}
+	
+	.media-container a {
+		margin-top: 1.25rem;
+		margin-bottom: 1.25rem;
+		width: 26.66666667%;
+		height: 150px;
+	}
+	
+	.media-container a li {
+		height: 100%;
+	}
+	
+	.media-overlay h3 {
+		margin-top: 1rem;
+		font-size: 1rem;	
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.media-container a {
+		height: 200px;	
+	}
+}
+
+
+@media screen and (min-width: 1024px) {
+	.media-container a {
+		width: 18.75%;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		height: 200px;	
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
